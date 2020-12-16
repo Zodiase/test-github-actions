@@ -22,6 +22,7 @@ jobs:
         uses: github/super-linter@v3
         env:
           DEFAULT_BRANCH: main
+          LINTER_RULES_PATH: /
           VALIDATE_JAVASCRIPT_ES: true
           JAVASCRIPT_ES_CONFIG_FILE: eslint/.eslintrc.js
           VALIDATE_JSON: true
