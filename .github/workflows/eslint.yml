@@ -45,7 +45,7 @@ jobs:
           issueSummaryType: compact
           issueSummaryMethod: edit
           issueSummaryOnlyOnEvent: false
-          annotateWarnings: true
+          reportWarnings: true
           reportSuggestions: true
           reportIgnoredFiles: false
           reportWarningsAsErrors: false
