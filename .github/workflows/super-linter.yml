@@ -23,6 +23,7 @@ jobs:
         env:
           DEFAULT_BRANCH: main
           VALIDATE_JAVASCRIPT_ES: true
+          JAVASCRIPT_ES_CONFIG_FILE: eslint/.eslintrc.js
           VALIDATE_JSON: true
           VALIDATE_YAML: true
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
