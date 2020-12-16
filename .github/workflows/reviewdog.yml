@@ -44,5 +44,5 @@ jobs:
           reporter: github-pr-check # Change reporter.
           eslint_flags: 'src/'
           filter_mode: nofilter
-          fail_on_error: true
+          fail_on_error: false
           workdir: eslint
