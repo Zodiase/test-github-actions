@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint src",
+    "lint:report": "eslint --output-file eslint_report.json --format json src",
     "test": "npm run lint"
   },
   "author": "Xingchen Hong",
