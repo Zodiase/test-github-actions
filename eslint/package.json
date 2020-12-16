@@ -1,0 +1,15 @@
+{
+  "name": "eslint",
+  "version": "1.0.0",
+  "description": "Testing linting with eslint.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint src",
+    "test": "npm run lint"
+  },
+  "author": "Xingchen Hong",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.15.0"
+  }
+}
